@@ -1,0 +1,34 @@
+#This file name
+
+#images
+
+# Node
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+assets
+
+node_modules
+npm-debug.log
+.idea/
+
+# Typescript Auto-generated files
+# Note: all files must be TS files in this directory or ordinary JS files could be removed
+# Modify as needed to preserve files and be more explict
+
+app/*.js
+app/*.js.map
+app/controllers/*.js
+app/controllers/*.js.map
+app/services/*.js
+app/services/*.js.map
