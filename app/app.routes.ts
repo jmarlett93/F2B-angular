@@ -1,5 +1,6 @@
 import {provideRouter, RouterConfig } from '@angular/router';
 
+import { HomePage } from './home-page.component';
 //Import our app components here
 
 const routes: RouterConfig = [
@@ -7,8 +8,7 @@ const routes: RouterConfig = [
     //make home the default
     {
         path: '',
-        redirectTo: 'F2B-main',
-        pathMatch: 'full'
+        component: HomePage
     },
 ];
 

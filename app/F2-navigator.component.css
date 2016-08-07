@@ -1,0 +1,59 @@
+.wrapper {
+    z-index: 500;
+    /*background: transparent;*/
+    background: linear-gradient(to right, rgba(95,97,97, 1), rgba(95,97,97, 0.5));
+    height: auto;
+    padding: 1em 0 0 0;
+    width: 100%;
+    /*position: fixed;*/
+    top:0px;
+    left: 0px;
+    display:-webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; }
+   
+#branding {
+    margin-bottom: 0.5em;
+    width:100%;
+    display:-webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start; }
+
+#branding > h1, #branding > div, #branding > ul{
+    font-size: 1.3em;
+    font-weight: 900;
+    color:#e9ece5;
+    text-transform: uppercase; }
+    
+#branding > h1 {
+    margin: 0 0 0 0.5em;
+    padding-right: 0.5em;
+     }
+    
+#branding > div{
+    margin: 0.5 0 0 0;
+    padding-left: 0.5em;
+    border-left: solid 1px #e9ece5; }
+
+#branding > ul {
+    margin-left:auto;
+    margin-right: 1em; } 
+    
+#branding > ul > a  {
+    padding: 0.35em 1em;
+    text-transform: uppercase;
+    border: 1px solid #e9ece5;
+    color: #e9ece5;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    }
+    #branding > ul > a:hover {
+        
+        border: 1px solid #3b3a36;
+        color: #3b3a36; }

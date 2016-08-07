@@ -1,0 +1,229 @@
+/*
+*Stylesheet for client Fixin To Buy website hosted on GoDaddy
+*Author: John Marlett
+* line 8 - 72 init settings + wrapper 
+* line 73 > content settings
+*
+*theme color palette TBD
+* Asphalt: #44495E, #2B2F3F
+*Grey: #94929F
+*Offwhite: #E4E3EC
+*Red : #9D1416, #A8280E
+* 
+*/
+
+html, body, div, span, applet, object, iframe, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, label, legend, main, p, blockquote, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  display: block; }
+
+@media all and (max-width: 1200px) {
+  body { font-size: 80%; }
+}
+
+@media all and (max-width: 880px) {
+  body { font-size: 80%; }
+}
+@media all and (max-width: 500px) {
+  body { font-size: 50%; }
+}
+
+html{
+  background: url(/css/images/lake-austin.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+button:focus{
+    outline:none; }
+    
+a {
+    color:#000000; }
+
+a:hover {
+    color:#CEE8E8; }
+
+img {
+    object-fit:contain;
+    width:100%; }
+
+section { height:auto; }
+  
+body {
+    font-family:  'Times New Roman', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent; }
+
+main {
+    margin: 7em 0 5em 0;
+    font-size: 100%;
+    background-color: transparent; }
+
+section {
+    margin: 1% 0; }
+
+a {
+    text-decoration: none; }
+
+#resources {
+    margin: 1em 3em;
+    padding: 1em 0.5em;
+    background-color: rgba(233,236,229, .9);
+    background-color: rgba(89,134,97, .9) }
+
+#resources > h1 {
+    margin: 0 2em;
+    text-align: center;
+    padding: 0 0 0.5em 0;
+    /*color:#5F6161;*/
+    color:#e9ece5;
+    /*border-top: 1px solid #3b3a36;*/
+    font-size: 2em;
+    font-weight: 600;
+    font-style:italic; }
+    
+#banner{
+    width:100%;
+    padding: 1em 0;
+    color: #e9ece5;
+    /*background-color: #6E8490;*/
+    align-self: flex-end;
+    display:-webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; }
+    
+#banner > p {
+    margin: auto;
+    padding-top: 0.5em;
+    /*background: rgba(95,97,97,0.5);*/
+    /*background: linear-gradient(to right, rgba(95,97,97,0.5), rgba(95,97,97, 0.25));*/
+    color: #e9ece5;
+    border-top: 1px solid #e9ece5;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-transform: capitalize; }
+
+.image-wrapper {
+    width: 100%;
+    position:relative; }
+    
+.container {
+    margin: 2em;
+    padding: 1em 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+
+.space-box {
+    margin:1em auto;
+    width: 22em;
+    height: 30em;
+    background: linear-gradient(to bottom, rgba(110,132,144, 1), rgba(110,132,144,0.75));
+    background: -o-linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255,1));
+    background: linear-gradient (to bottom, rgba(255,255,255, 0), rgba(255,255,255,1));
+    padding: 1% 1%;
+    color: #e9ece5; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch; }
+
+.space-box > h2 {
+    margin: 0.5rem 0 1rem 0;
+    padding: 0 0 0.5em 0;
+    border-bottom: solid 2px #e9ece5;
+    font-size: 2em;
+    font-weight: 600;
+    font-style:italic;
+    text-align: center;
+    align-self:center; }
+
+.space-box > footer {
+    margin-top: auto;
+    width: 90%; 
+    border-bottom: 1px solid #e9ece5;
+    align-self: center; }
+
+#site-info{
+    position: relative; }
+
+.space-box > ul {
+     display: flex;
+     flex-flow: column wrap;
+     justify-content:space-around; }
+
+.space-box > ul > li  {
+    margin: 0.3em 0;
+    font-size: 1.75em; }
+
+.icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.1em; }
+
+#credit{
+    margin-right:1em;
+    float:right; }
+    
+#credit > a {
+    color: #e9ece5; }
+    #credit > a:hover {
+       border-bottom: 1px solid #e9ece5; }
+    
+.site-footer {
+    background-color: #3b3a36;
+    color:#e9ece5;
+    height: auto;
+    margin: auto;
+    padding: 1em 0;
+    width: 100%;
+    display:-webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em; }
+
+/*styling specific for contact page*/
+
+#contact_me {}
+
+#ajax-contact {
+   background:transparent; }
+
+#ajax-contact > div {
+    background:transparent;
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+    font-size: 1.35em; }
+
+#ajax-contact > div > div {
+    background:transparent;
+    margin: 1%; }
+
+#ajax-contact > div > div > label {
+    margin-bottom: 1%; }
+
+#ajax-contact > div > div > button {
+    font-size: 1em; }
+   #ajax-contact > div > div > button:active {
+        }
+
+#ajax-contact > div > div > input, textarea, button {
+    
+     }
+
+#ajax-contact > div > div > input:focus, textarea:focus {
+ }
+    
+
+
