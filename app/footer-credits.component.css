@@ -1,0 +1,22 @@
+#credit{
+    margin-right:1em;
+    float:right; }
+    
+#credit > a {
+    color: #e9ece5; }
+    #credit > a:hover {
+       border-bottom: 1px solid #e9ece5; }
+    
+.site-footer {
+    background-color: #3b3a36;
+    color:#e9ece5;
+    height: auto;
+    margin: auto;
+    padding: 1em 0;
+    width: 100%;
+    display:-webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em; }
