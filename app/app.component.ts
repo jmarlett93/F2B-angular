@@ -1,5 +1,6 @@
 import { Component }       from '@angular/core';
 import { ROUTER_DIRECTIVES } from '@angular/router';
+import { SellerContactComponent } from './contact-form.component';
 import { HomePage } from './home-page.component';
 
 @Component({
@@ -7,9 +8,7 @@ import { HomePage } from './home-page.component';
     templateUrl: 'app/app.component.html',
     directives: [ROUTER_DIRECTIVES],
     precompile: [HomePage],
-    providers: [
-        
-        ]
+    providers: [ SellerContactComponent ]
 })
 
 export class AppComponent{
