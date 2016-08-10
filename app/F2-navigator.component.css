@@ -1,11 +1,9 @@
 .wrapper {
     z-index: 500;
-    /*background: transparent;*/
     background: linear-gradient(to right, rgba(95,97,97, 1), rgba(95,97,97, 0.5));
     height: auto;
     padding: 1em 0 0 0;
     width: 100%;
-    /*position: fixed;*/
     top:0px;
     left: 0px;
     display:-webkit-flex;
@@ -29,16 +27,16 @@
     font-weight: 900;
     text-align:center;
     text-transform: uppercase; }
-    
-#branding > h1 {
-    margin: auto;
-    margin-top: 1em; }
-    
+
 #branding > div{
     margin: auto;
     margin-top: 1em;
     padding-top: 0.5em;
     border-top: solid 1px #e9ece5; }
+    
+#branding > h1 {
+    margin: auto;
+    margin-top: 1em; }
 
 #branding > ul {
     margin: auto;
@@ -61,30 +59,22 @@
         
 @media (min-width: 880px) {
     
-    #branding > h1, #branding > div > h2, #branding > ul{
-    font-size: 2em;
-    font-weight: 900; }
-    
     #branding {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start; }
+    flex-direction: row; }
     
-    #branding > ul {
-    margin: auto;
-    margin-left:auto;
-    margin-right: 1em; } 
+    #branding > h1, #branding > div > h2, #branding > ul{
+    text-align:left; }
     
-    #branding > div{
+     #branding > div {
     margin: 0 0 auto 0;
     padding-left: 0.5em;
     border-top: none;
     border-left: solid 1px #e9ece5;}
     
-    #branding > h1, #branding > div > h2, #branding > ul{
-    font-size: 2em;
-    font-weight: 900;
-    text-transform: uppercase; }
+    #branding > ul {
+    margin: auto;
+    margin-left:auto;
+    margin-right: 1em; } 
     
 #branding > h1 {
     margin: 0 0 auto 0;
@@ -92,14 +82,10 @@
     padding-left: 0.5em;
     padding-right: 0.5em;
      }
-
 }
 
 @media (min-width: 1200px) {
      #branding > h1, #branding > div > h2, #branding > ul{
-    font-size: 1.75em;
-    font-weight: 900;
-    color:#e9ece5;
-    text-transform: uppercase; }
+    font-size: 1.75em; }
 
 }

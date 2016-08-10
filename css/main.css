@@ -23,11 +23,11 @@ html, body, div, span, applet, object, iframe, a, abbr, acronym, address, big, c
   display: block; }
 
 @media all and (min-width: 500px) {
-  body { font-size: 70%; }
+  body { font-size: 75%; }
 }
 
 @media all and (min-width: 880px) {
-  body { font-size: 90%; }
+  body { font-size: 95%; }
 }
 
 @media all and (min-width: 1200px) {
@@ -71,7 +71,6 @@ body {
 
 main {
     margin: 7em 0 5em 0;
-    font-size: 100%;
     background-color: transparent; }
 
 section {
@@ -91,56 +90,13 @@ a {
     flex-wrap: wrap;
     justify-content: flex-start; }
 
-
 #site-info{
     position: relative; }
-
-.space-box > ul {
-     display: flex;
-     flex-flow: column wrap;
-     justify-content:space-around; }
-
-.space-box > ul > li  {
-    margin: 0.3em 0;
-    font-size: 1.75em; }
-
+    
 .icon {
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 0.1em; }
 
-/*styling specific for contact page*/
-
-#contact_me {}
-
-#ajax-contact {
-   background:transparent; }
-
-#ajax-contact > div {
-    background:transparent;
-    width: 98%;
-    height: 98%;
-    margin: 1%;
-    font-size: 1.35em; }
-
-#ajax-contact > div > div {
-    background:transparent;
-    margin: 1%; }
-
-#ajax-contact > div > div > label {
-    margin-bottom: 1%; }
-
-#ajax-contact > div > div > button {
-    font-size: 1em; }
-   #ajax-contact > div > div > button:active {
-        }
-
-#ajax-contact > div > div > input, textarea, button {
-    
-     }
-
-#ajax-contact > div > div > input:focus, textarea:focus {
- }
-    
 
 
