@@ -22,10 +22,6 @@ html, body, div, span, applet, object, iframe, a, abbr, acronym, address, big, c
   font-family: inherit;
   display: block; }
 
-@media all and (min-width: 500px) {
-  body { font-size: 75%; }
-}
-
 @media all and (min-width: 880px) {
   body { font-size: 95%; }
 }
@@ -82,13 +78,6 @@ a {
 .image-wrapper {
     width: 100%;
     position:relative; }
-    
-.container {
-    margin: 2em;
-    padding: 1em 0.5em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; }
 
 #site-info{
     position: relative; }

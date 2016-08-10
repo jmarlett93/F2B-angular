@@ -1,0 +1,20 @@
+#contact-fields {
+    
+    display:-webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start; }
+
+div {
+    margin: auto;
+}
+
+
+@media (min-width: 880px) {
+   
+}
+
+@media (min-width: 1200px) {
+   
+}

@@ -5,7 +5,8 @@ import { SellerContact } from './seller-contact';
 
 @Component ({
     selector:'contact-form',
-    templateUrl: 'app/contact-form.component.html'
+    templateUrl: 'app/contact-form.component.html',
+    styleUrls: ['app/contact-form.component.css']
 })
 
 export class SellerContactComponent {
