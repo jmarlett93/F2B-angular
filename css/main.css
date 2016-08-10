@@ -19,19 +19,19 @@ html, body, div, span, applet, object, iframe, a, abbr, acronym, address, big, c
   outline: 0;
   font-weight: inherit;
   font-style: inherit;
-  font-size: 100%;
   font-family: inherit;
   display: block; }
 
-@media all and (max-width: 1200px) {
-  body { font-size: 80%; }
+@media all and (min-width: 500px) {
+  body { font-size: 70%; }
 }
 
-@media all and (max-width: 880px) {
-  body { font-size: 80%; }
+@media all and (min-width: 880px) {
+  body { font-size: 90%; }
 }
-@media all and (max-width: 500px) {
-  body { font-size: 50%; }
+
+@media all and (min-width: 1200px) {
+  body { font-size: 100%; }
 }
 
 html{
@@ -91,35 +91,6 @@ a {
     flex-wrap: wrap;
     justify-content: flex-start; }
 
-.space-box {
-    margin:1em auto;
-    width: 22em;
-    height: 30em;
-    background: linear-gradient(to bottom, rgba(110,132,144, 1), rgba(110,132,144,0.75));
-    background: -o-linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255,1));
-    background: linear-gradient (to bottom, rgba(255,255,255, 0), rgba(255,255,255,1));
-    padding: 1% 1%;
-    color: #e9ece5; 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: stretch; }
-
-.space-box > h2 {
-    margin: 0.5rem 0 1rem 0;
-    padding: 0 0 0.5em 0;
-    border-bottom: solid 2px #e9ece5;
-    font-size: 2em;
-    font-weight: 600;
-    font-style:italic;
-    text-align: center;
-    align-self:center; }
-
-.space-box > footer {
-    margin-top: auto;
-    width: 90%; 
-    border-bottom: 1px solid #e9ece5;
-    align-self: center; }
 
 #site-info{
     position: relative; }

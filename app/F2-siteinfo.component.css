@@ -1,3 +1,4 @@
+
 .container {
     margin: 2em;
     padding: 1em 0.5em;
@@ -7,7 +8,7 @@
 
 .space-box {
     margin:1em auto;
-    width: 22em;
+    width: 50em;
     height: 30em;
     background: linear-gradient(to bottom, rgba(110,132,144, 1), rgba(110,132,144,0.75));
     background: -o-linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255,1));
@@ -46,3 +47,16 @@
 .space-box > ul > li  {
     margin: 0.3em 0;
     font-size: 1.75em; }
+    
+    
+@media (min-width: 880px) {
+    
+.space-box {
+    width: 42em; }
+}
+
+@media (min-width: 1200px) {
+    .space-box {
+    width: 30em; }
+
+}
