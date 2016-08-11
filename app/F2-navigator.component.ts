@@ -1,11 +1,17 @@
 import { Component }  from '@angular/core';
-//import { ContactPage } from 'app/contact-page.component';
+import { ROUTER_DIRECTIVES } from '@angular/router';
 
 @Component({
     selector: 'F2-navigator',
+    inputs: ['linkName'],
     templateUrl: 'app/F2-navigator.component.html',
-    styleUrls: ['app/F2-navigator.component.css']
+    styleUrls: ['app/F2-navigator.component.css'],
+    directives: [ROUTER_DIRECTIVES],
 
 })
 
-export class F2Navigator { }
+export class F2Navigator {
+    linkName : string ;
+    linkProperty: string;
+    
+ }

@@ -13,6 +13,12 @@ import { FooterCredits } from './footer-credits.component';
 })
 
 export class HomePage {
-     buttonMessage = 'Contact';
-     path = '/contact';
+    link: string;
+    linkPath: string;
+    
+    constructor() {
+        this.link = "contact";
+        this.linkPath = "/contact";
+    }
+    
 }

@@ -9,6 +9,11 @@ import { FooterCredits } from './footer-credits.component';
 })
 
 export class ContactPage {
-    buttonMessage = 'home';
-    path = '/home';
+    link:string;
+    linkPath: string;
+    constructor() {
+        this.link = "home";    
+        this.linkPath = "/home";
+    }
+    
  }
