@@ -13,5 +13,4 @@ import { HomePage } from './home-page.component';
 
 export class AppComponent{
     title = "Sell Your House For Cash | Fixin' To Buy LLC ";
-
 }

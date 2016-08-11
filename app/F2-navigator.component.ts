@@ -1,4 +1,5 @@
 import { Component }  from '@angular/core';
+//import { ContactPage } from 'app/contact-page.component';
 
 @Component({
     selector: 'F2-navigator',
@@ -7,6 +8,4 @@ import { Component }  from '@angular/core';
 
 })
 
-export class F2Navigator {
-    
-}
+export class F2Navigator { }

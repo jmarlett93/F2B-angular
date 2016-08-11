@@ -8,7 +8,11 @@ import { FooterCredits } from './footer-credits.component';
 @Component ({
     selector: 'home-page',
     templateUrl: 'app/home-page.component.html',
+    styles: [`home-page {height: 100%; } `],
     directives: [F2Navigator, F2Branding, F2SiteInfo, FooterCredits, SellerContactComponent ]
 })
 
-export class HomePage { }
+export class HomePage {
+     buttonMessage = 'Contact';
+     path = '/contact';
+}
