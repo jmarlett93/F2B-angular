@@ -8,7 +8,8 @@
        border-bottom: 1px solid #e9ece5; }
     
 .site-footer {
-    background-color: #3b3a36;
+    font-family:  'Times New Roman', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #5F6161;
     color:#e9ece5;
     height: auto;
     margin: auto;

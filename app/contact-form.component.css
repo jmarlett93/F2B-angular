@@ -1,17 +1,54 @@
-#contact-fields {
-    
+form {
+    margin: auto;
+    height:auto;
+    display:-webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start; 
+    font-size: 1.5em; }
+
+div {
+    width: 90%;
+    margin-right: auto;
     display:-webkit-flex;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start; }
 
-div {
+label {
+    width: 100%; }
+
+input {
+    border-radius: 0.25em;
+    font-size: 1em;
+    height: 3em;
+    width: 100%; }
+
+button {
+    padding: 0.25em;
     margin: auto;
-}
+    margin-top: 1em;
+    width: 7em;
+    height: 3.5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #e9ece5;
+    color: #e9ece5;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out; }
+    button:hover {
+        border: 1px solid #2A2C2C;
+        color: #2A2C2C;     }
 
 
 @media (min-width: 880px) {
+    form {
+        height: 80%; }
    
 }
 

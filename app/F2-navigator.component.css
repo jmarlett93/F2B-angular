@@ -1,4 +1,5 @@
 .wrapper {
+    font-family:  'Times New Roman', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     z-index: 500;
     background: linear-gradient(to right, rgba(95,97,97, 1), rgba(95,97,97, 0.5));
     height: auto;
@@ -54,8 +55,8 @@
     }
     #branding > ul > a:hover {
         
-        border: 1px solid #3b3a36;
-        color: #3b3a36; }
+        border: 1px solid #2A2C2C;
+        color: #2A2C2C; }
         
 @media (min-width: 880px) {
     
