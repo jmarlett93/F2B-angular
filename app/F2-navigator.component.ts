@@ -11,7 +11,5 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
 })
 
 export class F2Navigator {
-    linkName : string ;
-    linkProperty: string;
-    
+    linkName : string ;    
  }

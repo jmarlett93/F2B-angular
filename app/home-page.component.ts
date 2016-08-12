@@ -18,7 +18,6 @@ export class HomePage {
     
     constructor() {
         this.link = "contact";
-        this.linkPath = "/contact";
     }
     
 }

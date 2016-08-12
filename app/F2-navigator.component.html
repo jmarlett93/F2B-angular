@@ -6,7 +6,10 @@
             <h2>Austin, TX</h2>
             </div>
          <ul>
-            <a [routerLink]= "['/contact']" routerLinkActive="active">
+            <a *ngIf ="linkName == 'contact' " [routerLink]= "['/contact']" routerLinkActive="active">
+                <li>{{linkName}}</li>
+            </a>
+            <a *ngIf ="linkName == 'home' " [routerLink]= "['/home']" routerLinkActive="active">
                 <li>{{linkName}}</li>
             </a>
         </ul>
