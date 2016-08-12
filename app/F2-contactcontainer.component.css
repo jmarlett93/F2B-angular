@@ -26,16 +26,6 @@
     font-weight: 600;
     text-align: center;
     align-self:center; }
-
-.space-box > ul {
-     display: flex;
-     flex-flow: column wrap;
-     justify-content:space-around; }
-
-.space-box > ul > li  {
-    margin: 0.3em 0;
-    font-size: 1.75em; }
-    
     
 @media (min-width: 880px) {
     
