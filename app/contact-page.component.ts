@@ -11,7 +11,6 @@ import { F2ContactContainer} from './F2-contactcontainer.component';
 
 export class ContactPage {
     link:string;
-    linkPath: string;
     
     constructor() {
         this.link = "home";    

@@ -22,8 +22,4 @@ export class SellerContactComponent {
         this.active = false;
         setTimeout(() => this.active = true, 0);
     }
-
-    // TODO: Remove this when we're done
-    get diagnostic() { return JSON.stringify(this.model); }
-
 }

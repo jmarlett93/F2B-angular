@@ -14,10 +14,8 @@ import { FooterCredits } from './footer-credits.component';
 
 export class HomePage {
     link: string;
-    linkPath: string;
     
     constructor() {
         this.link = "contact";
-    }
-    
+    }   
 }
