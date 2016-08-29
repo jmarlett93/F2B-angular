@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import { SellerContactComponent } from './contact-form.component';
 
 @Component ({
