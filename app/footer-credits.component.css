@@ -9,7 +9,7 @@
     
 .site-footer {
     font-family:  'Times New Roman', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #5F6161;
+    background: linear-gradient(to right, rgba(95,97,97, 1), rgba(95,97,97, 0.5));
     color:#e9ece5;
     height: auto;
     margin: auto;
