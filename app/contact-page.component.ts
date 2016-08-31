@@ -12,9 +12,4 @@ import { SellerContactComponent } from './contact-form.component';
 export class ContactPage {
     
     link = "home";
-    /*link:string;
-    
-    constructor() {
-        this.link = "home";    */
-    }
  }
