@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
 })
 
 export class FooterCredits { 
-    credit = "Fixin' To Buy, LLC. | Website designed & built by John Marlett" ;
 }
