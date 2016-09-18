@@ -18,7 +18,7 @@ import {
 } from 'angular2-universal';
 
 // replace this line with your Angular 2 root component
-import {App, routes} from './app';
+import {App, routes} from './dist';
 
 const app = express();
 const ROOT = path.join(path.resolve(__dirname, '..'));
